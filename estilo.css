@@ -1,0 +1,13 @@
+:root { color-scheme: dark; --ink: #0c0f17; --card: #141926; --destaque: #a8d8ff; }
+* { box-sizing: border-box; }
+body { margin: 0; padding: 24px 16px; background: var(--ink); color: #eef2fa; font: 15px/1.4 system-ui, sans-serif; }
+h1 { margin: 0; color: var(--destaque); }
+form { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 24px; }
+input, button { padding: 10px; border: 1px solid #2a3145; border-radius: 8px; background: var(--card); color: inherit; font: inherit; }
+button { cursor: pointer; }
+#quadro { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+.coluna { min-height: 240px; padding: 12px; border-radius: 12px; background: #10141f; }
+.coluna h2 { margin: 0 0 10px; font-size: 14px; }
+.cartao { margin-bottom: 8px; padding: 10px; border-radius: 8px; background: var(--card); cursor: grab; }
+.cartao small { display: block; color: #aab4c8; }
+.cartao button { margin-top: 6px; padding: 2px 8px; font-size: 12px; }

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mini CRM</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header>
+  <h1>Mini CRM</h1>
+  <p>Previsão no funil: <strong id="previsao"></strong></p>
+  <form id="novo">
+    <input id="nome" placeholder="Empresa" required aria-label="Empresa">
+    <input id="valor" type="number" min="0" placeholder="Valor (R$)" required aria-label="Valor">
+    <button>Adicionar</button>
+  </form>
+</header>
+<main id="quadro"></main>
+<script type="module" src="app.js"></script>
+</body>
+</html>
