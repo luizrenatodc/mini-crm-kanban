@@ -6,6 +6,12 @@ Funil de vendas visual, em que cada negócio avança por etapas e a previsão de
 
 **Demonstração:** https://luizrenatodc.github.io/mini-crm-kanban/
 
+## Veja funcionando
+
+![Funil com negócios fictícios e previsão ponderada.](docs/funil.png)
+
+*Funil com negócios fictícios e previsão ponderada.*
+
 ## O problema
 
 Times comerciais pequenos controlam oportunidades em planilhas e não enxergam quanto realmente deve entrar. Somar o valor de todas as propostas engana, porque cada etapa tem uma chance diferente de fechar.
